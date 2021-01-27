@@ -1,10 +1,12 @@
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
   background-color: #00000070;
   padding: 20px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   border-radius: 4px; 
   img {
@@ -41,6 +43,12 @@ export default function Footer(props) {
           <span>Imersão React da Alura</span>
         </a>
       </p>
+      <div>
+        Icons made by
+        <a href="https://www.freepik.com" title="Freepik"> Freepik </a>
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+      </div>
     </FooterWrapper>
   );
 }

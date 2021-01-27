@@ -2,6 +2,7 @@
     "bg": "https://images.metmuseum.org/CRDImages/ep/original/DP-13139-001.jpg", 
     "title": "History Quiz",
     "description": "Teste os seus conhecimentos sobre História Geral.",
+    "favicon": "https://www.flaticon.com/svg/vstatic/svg/4054/4054594.svg?token=exp=1611701266~hmac=4a32593d8d9b4a01992e4a11740817f7",
     "questions": [
       {
         "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
@@ -31,11 +32,11 @@
     ],
     "theme": {
       "colors": {
-        "primary": "#BF5C06",
-        "secondary": "#73BFBF",
-        "mainBg": "#262626",
-        "contrastText": "#F2EBD5",
-        "wrong": "#F27052",
+        "primary": "#A63C45",
+        "secondary": "#F27A5E",
+        "mainBg": "#F2D7B6",
+        "contrastText": "#242526",
+        "wrong": "#F26052",
         "success": "#5E8C49"
       },
       "borderRadius": "4px"

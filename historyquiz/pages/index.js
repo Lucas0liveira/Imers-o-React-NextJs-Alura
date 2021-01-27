@@ -1,16 +1,14 @@
-import styled from 'styled-components'
-import db from '../db.json'
-import QuizBackground from '../src/components/QuizBackground'
-import Widget from '../src/components/Widget'
-import Footer from '../src/components/Footer'
-import GitHubCorner from '../src/components/GitHubCorner'
+import React from 'react';
+import styled from 'styled-components';
+import Head from 'next/head';
+import { useRouter, useState } from 'next/router';
 
-// const BackgroundImage = styled.div`
-//   background-image: url(${db.bg});
-//   background-size: cover;
-//   background-position: center;
-//   flex: 1;
-// `
+import db from '../db.json';
+import QuizBackground from '../src/components/QuizBackground';
+import Widget from '../src/components/Widget';
+import Footer from '../src/components/Footer';
+import GitHubCorner from '../src/components/GitHubCorner';
+import Input from '../src/components/Input';
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -23,28 +21,55 @@ export const QuizContainer = styled.div`
   }
 `;
 
-
 export default function Home() {
-  return(
+  const router = useRouter();
+  const [name, setName] = React.useState('');
+
+  return (
     <QuizBackground backgroundImage={db.bg}>
+      <Head />
       <QuizContainer>
         <Widget>
           <Widget.Header>
-            <h1> {db.title} </h1>
+            <h1>
+              {'📜  '}
+              {db.title}
+              {' '}
+            </h1>
           </Widget.Header>
           <Widget.Content>
-            <p> {db.description} </p>
+            <p>
+              {' '}
+              {db.description}
+              {' '}
+            </p>
+            <form onSubmit={(e) => {
+              e.preventDefault();
+              router.push(`/quiz?name=${name}`);
+            }}
+            >
+              <Input
+                onChange={(e) => {
+                  setName(e.target.value);
+                }}
+                placeholder="Qual seu nome?"
+              />
+              <button type="submit" disabled={name.length === 0}>
+                Jogar como
+                {' '}
+                {name.length === 0 ? '...' : name}
+              </button>
+
+            </form>
           </Widget.Content>
         </Widget>
         <Widget>
-          <Widget.Content>
-
-          </Widget.Content>
+          <Widget.Content />
         </Widget>
-        <Footer/>
+        <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/lucas0liveira/"/>
+      <GitHubCorner projectUrl="https://github.com/lucas0liveira/" />
     </QuizBackground>
-     
-  )
+
+  );
 }
