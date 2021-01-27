@@ -1,7 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
 import Head from 'next/head';
-import { useRouter, useState } from 'next/router';
+import { useRouter } from 'next/router';
 
 import db from '../db.json';
 import QuizBackground from '../src/components/QuizBackground';
@@ -9,17 +8,8 @@ import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
-
-export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-`;
+import Button from '../src/components/Button';
+import QuizContainer from '../src/components/QuizContainer';
 
 export default function Home() {
   const router = useRouter();
@@ -49,16 +39,17 @@ export default function Home() {
             }}
             >
               <Input
+                name="nomeDoUsuario"
                 onChange={(e) => {
                   setName(e.target.value);
                 }}
                 placeholder="Qual seu nome?"
+                value={name}
               />
-              <button type="submit" disabled={name.length === 0}>
-                Jogar como
-                {' '}
-                {name.length === 0 ? '...' : name}
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+                Vamos jogar
+                {name.length === 0 ? ' ...' : `, ${name}!`}
+              </Button>
 
             </form>
           </Widget.Content>
