@@ -8,7 +8,11 @@ const FooterWrapper = styled.footer`
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 4px; 
+  border-radius: 4px;
+  &:before{
+    filter:blur(10px)
+  }
+  
   img {
     width: 58px;
     margin-right: 23px;

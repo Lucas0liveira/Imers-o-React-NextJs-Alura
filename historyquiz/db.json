@@ -92,7 +92,7 @@
         "image": "https://cdn.pixabay.com/photo/2018/10/05/07/38/mongolia-3725316_960_720.jpg",
         "title": "Que evento acontecia no Ocidente ao mesmo tempo em que Genghis Khan expandia seu império?",
         "description": "Médio",
-        "answer": 4,
+        "answer": 1,
         "alternatives": [
           "A Terceira e Quarta Cruzada",
           "A invasão do Império Romano por Atila, o Huno",
@@ -113,6 +113,18 @@
         ]
       },
       {
+        "image": "https://cdn.pixabay.com/photo/2019/10/02/14/09/jam-4521023_960_720.jpg",
+        "title": "Qual desses alimentos não existia na Europa antes do século XVI?",
+        "description": "Médio",
+        "answer": 2,
+        "alternatives": [
+          "Repolho",
+          "Batatas",
+          "Maçãs",
+          "Carne suína"
+        ]
+      },
+      {
         "image": "https://cdn.pixabay.com/photo/2016/04/11/17/53/ziggurat-1322581_960_720.jpg",
         "title": "Onde ficava a antiga cidade de Tróia",
         "description": "Médio",
@@ -123,6 +135,30 @@
           "No sul da península italiana",
           "Nenhuma das alternativas"
         ]
+      },
+      {
+        "image": "https://cdn.pixabay.com/photo/2016/04/11/17/53/ziggurat-1322581_960_720.jpg",
+        "title": "Como se chamava o líder da coalisão islâmica para retomar Jerusalém durante a Terceira Cruzada?",
+        "description": "Médio",
+        "answer": 3,
+        "alternatives": [
+          "Muhammed II",
+          "Suleiman I",
+          "Saladino",
+          "Adil I"
+        ]
+      },
+      {
+        "image": "https://cdn.pixabay.com/photo/2016/04/11/17/53/ziggurat-1322581_960_720.jpg",
+        "title": "Como se chamava o líder da coalisão islâmica para retomar Jerusalém durante a Terceira Cruzada?",
+        "description": "Médio",
+        "answer": 3,
+        "alternatives": [
+          "Muhammed II",
+          "Suleiman I",
+          "Saladino",
+          "Adil I"
+        ]
       }
     ],
     "external": [
@@ -130,12 +166,12 @@
     ],
     "theme": {
       "colors": {
-        "primary": "#A63C45",
-        "secondary": "#F27A5E",
-        "mainBg": "#F2D7B6",
-        "contrastText": "#242526",
-        "wrong": "#F26052",
-        "success": "#5E8C49"
+        "primary": "#78290f",
+        "secondary": "#15616d",
+        "mainBg": "#001524",
+        "contrastText": "#ffecd1",
+        "wrong": "#f95738",
+        "success": "#679436"
       },
       "borderRadius": "4px"
     }
