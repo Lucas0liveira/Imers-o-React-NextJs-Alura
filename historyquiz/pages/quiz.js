@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 /* eslint-disable react/prop-types */
 import React from 'react';
 import db from '../db.json';
@@ -31,6 +32,8 @@ function LoadingWidget() {
 function QuestionWidget({
   question, totalQuestions, questionIndex, onSubmit,
 }) {
+  const [selected, setSelected] = React.useState(-1);
+
   return (
     <Widget>
       <Widget.Header>
@@ -66,6 +69,7 @@ function QuestionWidget({
         <form
           onSubmit={(e) => {
             e.preventDefault();
+            setSelected(-1);
             onSubmit();
           }}
         >
@@ -77,7 +81,10 @@ function QuestionWidget({
                 htmlFor={alternativeId}
               >
                 <input
-                  style={{ display: 'none' }}
+                  disabled={alternativeIndex != selected && alternativeIndex == -1}
+                  onClick={() => setSelected(alternativeIndex)}
+                  checked={alternativeIndex == selected}
+                  // style={{ display: 'none' }}
                   id={alternativeId}
                   // name={questionId}
                   type="radio"

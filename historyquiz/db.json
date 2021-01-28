@@ -5,25 +5,123 @@
     "favicon": "https://www.flaticon.com/svg/vstatic/svg/4054/4054594.svg?token=exp=1611701266~hmac=4a32593d8d9b4a01992e4a11740817f7",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://cdn.pixabay.com/photo/2016/02/19/10/12/writing-1209121_960_720.jpg",
+        "title": "A qual civilização é creditada a invenção da escrita?",
+        "description": "Fácil",
+        "answer": 3,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Egito",
+          "Fenícia",
+          "Suméria",
+          "China"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
+        "image": "https://cdn.pixabay.com/photo/2015/10/28/17/05/statue-1010936_960_720.jpg",
+        "title": "Como é chamado o período de guerra civil pelo qual o Japão passou durante o século XVI?",
+        "description": "Médio",
+        "answer": 2,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+          "Período Edo",
+          "Sengoku Jidai",
+          "Shinzou Sasageyo",
+          "Período Muromachi"
+        ]
+      },
+      {
+        "image": "https://cdn.pixabay.com/photo/2019/02/19/20/18/emperor-4007627_960_720.jpg",
+        "title": "Qual desses não foi um imperador romano?",
+        "description": "Médio",
+        "answer": 2,
+        "alternatives": [
+          "Constantino, o Grande",
+          "Júlio César",
+          "Augusto César",
+          "Nero"
+        ]
+      },
+      {
+        "image": "https://cdn.pixabay.com/photo/2019/01/14/18/11/the-queen-victoria-memorial-3932661_960_720.jpg",
+        "title": "Como se chamava a lendária rainha nômade da Cítia, responsável por vencer Ciro, o Grande em batalha?",
+        "description": "Difícil",
+        "answer": 1,
+        "alternatives": [
+          "Tômiris",
+          "Boudicca",
+          "Artemísia I de Caria",
+          "Rainha Sibila de Jerusalém"
+        ]
+      },
+      {
+        "image": "https://cdn.pixabay.com/photo/2013/10/28/23/32/sterling-castle-202103_960_720.jpg",
+        "title": "Qual desses eventos aconteceu no final do Período Medieval?",
+        "description": "Fácil",
+        "answer": 4,
+        "alternatives": [
+          "A tomada de Constantinopla pelo Império Otomano",
+          "Surgimento do Protestantismo",
+          "A descoberta das Américas",
+          "Todas as alternativas anteriores"
+        ]
+      },
+      {
+        "image": "https://cdn.pixabay.com/photo/2012/02/28/10/19/business-18107_960_720.jpg",
+        "title": "Como se chamava a pessoa mais rica da história?",
+        "description": "Médio",
+        "answer": 2,
+        "alternatives": [
+          "Jeff Bezos, do Novo México, EUA",
+          "Mansa Musa, do império africano de Mali",
+          "O rei Luís XIV da França",
+          "Kublai Khan, do Império Mongol/Dinastia Yuan"
+        ]
+      },
+      {
+        "image": "https://cdn.pixabay.com/photo/2017/06/11/18/03/london-2393098_960_720.jpg",
+        "title": "Qual desses povos invadiu a Ilha Britânica por último?",
+        "description": "Médio",
+        "answer": 4,
+        "alternatives": [
+          "Nórdicos",
+          "Saxões",
+          "Romanos",
+          "Normandos"
+        ]
+      },
+      {
+        "image": "https://cdn.pixabay.com/photo/2018/10/05/07/38/mongolia-3725316_960_720.jpg",
+        "title": "Que evento acontecia no Ocidente ao mesmo tempo em que Genghis Khan expandia seu império?",
+        "description": "Médio",
+        "answer": 4,
+        "alternatives": [
+          "A Terceira e Quarta Cruzada",
+          "A invasão do Império Romano por Atila, o Huno",
+          "O descobrimento das Américas",
+          "O início da Guerra das Rosas"
+        ]
+      },
+      {
+        "image": "https://cdn.pixabay.com/photo/2016/04/11/17/53/ziggurat-1322581_960_720.jpg",
+        "title": "Onde ficava a antiga cidade de Ur",
+        "description": "Médio",
+        "answer": 1,
+        "alternatives": [
+          "No atual Iraque",
+          "No atual Irã",
+          "Onde hoje é Istambul",
+          "No Egito"
+        ]
+      },
+      {
+        "image": "https://cdn.pixabay.com/photo/2016/04/11/17/53/ziggurat-1322581_960_720.jpg",
+        "title": "Onde ficava a antiga cidade de Tróia",
+        "description": "Médio",
+        "answer": 2,
+        "alternatives": [
+          "Uma ilha na Grécia",
+          "No litoral da Turquia",
+          "No sul da península italiana",
+          "Nenhuma das alternativas"
         ]
       }
     ],
