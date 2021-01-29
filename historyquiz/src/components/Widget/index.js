@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import db from '../../../db.json';
 
 const Widget = styled.div`
   margin-top: 24px;
@@ -8,14 +7,6 @@ const Widget = styled.div`
   background-color: ${({ theme }) => theme.colors.mainBg};
   border-radius: 4px;
   overflow: hidden;
-  transform: translate(-50);
-  
-  &:before {
-    content: '';
-    opacity: 0.5;
-    box-shadow: inset 0 0 0 500px rgba(255,255,255, 0.2);
-    filter:blur(10px);
-  }
 
   h1, h2, h3 {
     font-size: 16px;

@@ -8,27 +8,9 @@ import QuizBackground from '../src/components/QuizBackground';
 import QuizContainer from '../src/components/QuizContainer';
 import Button from '../src/components/Button';
 import AlternativesForm from '../src/components/AlternativesForm';
+import LoadingWidget from '../src/components/LoadingWidget';
 
-function LoadingWidget() {
-  return (
-    <Widget
-      style={{
-        height: '570px',
-        transition: 'opacity 0.5s ease-in-out',
-      }}
-    >
-      <Widget.Header />
 
-      <div
-        style={{
-          width: '100%',
-          height: '150px',
-          backgroundColor: `${db.theme.colors.secondary}`,
-        }}
-      />
-    </Widget>
-  );
-}
 
 function ResultWidget({ results }) {
   return (
@@ -164,7 +146,7 @@ const screenStates = {
   RESULT: 'RESULT',
 };
 export default function QuizPage() {
-  const [screenState, setScreenState] = React.useState(screenStates.RESULT);
+  const [screenState, setScreenState] = React.useState(screenStates.LOADING);
   const [results, setResults] = React.useState([]);
   const totalQuestions = db.questions.length;
   const [currentQuestion, setCurrentQuestion] = React.useState(0);
@@ -181,7 +163,7 @@ export default function QuizPage() {
   React.useEffect(() => {
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-    }, 5 * 1000);
+    }, 1.2 * 1000);
   });
 
   function handleSubmit() {
