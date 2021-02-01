@@ -13,7 +13,7 @@ export default function Head() {
       <meta property="og:url" content="https://historyquiz.vercel.app/" />
       <meta property="og:title" content="History Quiz" />
       <meta property="og:description" content="Um pequeno Quiz sobre História com H maiúsculo. Vamos ver o quanto você sabe sobre os eventos e pessoas que, de um jeito ou de outro, nos trouxeram até aqui." />
-      <meta property="og:image" content={db.bg} />
+      <meta name="image" property="og:image" content={db.bg}>
       <div>
         Icons made by
         <a href="https://www.freepik.com" title="Freepik">Freepik</a>
