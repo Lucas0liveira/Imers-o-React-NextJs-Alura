@@ -19,6 +19,7 @@ function ResultWidget({ results }) {
       }}
     >
       <Widget.Header>
+        <BackLinkArrow href="/" />
         <h2>Score Final</h2>
       </Widget.Header>
 
@@ -98,7 +99,7 @@ function QuestionWidget({
               onSubmit();
               setIsQuestionSubmited(false);
               setSelected(undefined);
-            }, 0.8 * 1000);
+            }, 0.2 * 1000);
           }}
         >
           {question.alternatives.map((alternative, alternativeIndex) => {
@@ -175,13 +176,13 @@ export default function QuizPage() {
   React.useEffect(() => {
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-    }, 1.2 * 1000);
-  });
+    }, 2 * 1000);
+  }, []);
 
   function handleSubmit() {
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < totalQuestions) {
-      setCurrentQuestion(questionIndex + 1);
+      setCurrentQuestion(currentQuestion + 1);
     } else {
       setScreenState(screenStates.RESULT);
     }
@@ -202,6 +203,7 @@ export default function QuizPage() {
         )}
         {screenState === screenStates.LOADING && <LoadingWidget />}
         {screenState === screenStates.RESULT && <ResultWidget results={results} />}
+        <pre>{`${screenState}`}</pre>
       </QuizContainer>
     </QuizBackground>
   );
