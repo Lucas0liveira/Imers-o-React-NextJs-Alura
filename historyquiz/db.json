@@ -7,7 +7,7 @@
       {
         "image": "https://cdn.pixabay.com/photo/2016/02/19/10/12/writing-1209121_960_720.jpg",
         "title": "A qual civilização é creditada a invenção da escrita?",
-        "description": "Fácil",
+        "description": "Isso foi há mais ou menos 5500 anos.",
         "answer": 3,
         "alternatives": [
           "Egito",
@@ -19,7 +19,7 @@
       {
         "image": "https://cdn.pixabay.com/photo/2015/10/28/17/05/statue-1010936_960_720.jpg",
         "title": "Como é chamado o período de guerra civil pelo qual o Japão passou durante o século XVI?",
-        "description": "Médio",
+        "description": "Além dos Samurais, é provável que você encontrasse monjes guerreiros Ikko-Ikki em um campo de batalha da época.",
         "answer": 2,
         "alternatives": [
           "Período Edo",
@@ -31,7 +31,7 @@
       {
         "image": "https://cdn.pixabay.com/photo/2019/02/19/20/18/emperor-4007627_960_720.jpg",
         "title": "Qual desses não foi um imperador romano?",
-        "description": "Médio",
+        "description": "Pelo menos não oficialmente...",
         "answer": 2,
         "alternatives": [
           "Constantino, o Grande",
@@ -42,8 +42,8 @@
       },
       {
         "image": "https://cdn.pixabay.com/photo/2019/01/14/18/11/the-queen-victoria-memorial-3932661_960_720.jpg",
-        "title": "Como se chamava a lendária rainha nômade da Cítia, responsável por vencer Ciro, o Grande em batalha?",
-        "description": "Difícil",
+        "title": "Como se chamava a lendária rainha da Cítia, responsável por vencer Ciro, o Grande em batalha?",
+        "description": "O Imperador da Pérsia vs a Rainha Nômade.",
         "answer": 1,
         "alternatives": [
           "Tômiris",
@@ -54,20 +54,20 @@
       },
       {
         "image": "https://cdn.pixabay.com/photo/2013/10/28/23/32/sterling-castle-202103_960_720.jpg",
-        "title": "Qual desses eventos aconteceu no final do Período Medieval?",
-        "description": "Fácil",
-        "answer": 4,
+        "title": "Qual desses eventos é o principal marco do final do Período Medieval?",
+        "description": "Alguns eventos marcam o fim da Idade Média, um deles é o fim de uma constante de mais de mil anos na Europa pós Roma.",
+        "answer": 1,
         "alternatives": [
           "A tomada de Constantinopla pelo Império Otomano",
           "Surgimento do Protestantismo",
           "A descoberta das Américas",
-          "Todas as alternativas anteriores"
+          "A peste bubônica"
         ]
       },
       {
         "image": "https://cdn.pixabay.com/photo/2012/02/28/10/19/business-18107_960_720.jpg",
         "title": "Como se chamava a pessoa mais rica da história?",
-        "description": "Médio",
+        "description": "Uma fortuna estimada em 400 bilhões de dólares.",
         "answer": 2,
         "alternatives": [
           "Jeff Bezos, do Novo México, EUA",
@@ -79,7 +79,7 @@
       {
         "image": "https://cdn.pixabay.com/photo/2017/06/11/18/03/london-2393098_960_720.jpg",
         "title": "Qual desses povos invadiu a Ilha Britânica por último?",
-        "description": "Médio",
+        "description": "Hoje, apenas 22 países nunca foram invadidos pelo Império Britânico, mas até alguns séculos atrás a situação era um pouco diferente.",
         "answer": 4,
         "alternatives": [
           "Nórdicos",
@@ -91,7 +91,7 @@
       {
         "image": "https://cdn.pixabay.com/photo/2018/10/05/07/38/mongolia-3725316_960_720.jpg",
         "title": "Que evento acontecia no Ocidente ao mesmo tempo em que Genghis Khan expandia seu império?",
-        "description": "Médio",
+        "description": "Alguns eventos parecem tão distantes uns dos outros, mas aconteceram simultaneamente. Sabia que ainda havia mamutes por aí enquanto as Pirâmides de Gisa eram construídas?",
         "answer": 1,
         "alternatives": [
           "A Terceira e Quarta Cruzada",
@@ -103,7 +103,7 @@
       {
         "image": "https://cdn.pixabay.com/photo/2016/04/11/17/53/ziggurat-1322581_960_720.jpg",
         "title": "Onde ficava a antiga cidade de Ur",
-        "description": "Médio",
+        "description": "Diz a lenda que é onde reinava Gilgamesh, o primeiro herói, da primeira história escrita de que sem tem registros.",
         "answer": 1,
         "alternatives": [
           "No atual Iraque",
@@ -115,7 +115,7 @@
       {
         "image": "https://cdn.pixabay.com/photo/2019/10/02/14/09/jam-4521023_960_720.jpg",
         "title": "Qual desses alimentos não existia na Europa antes do século XVI?",
-        "description": "Médio",
+        "description": "Aparece o tempo todo em filmes e séries No lugar e época errados. Tsc tsc.",
         "answer": 2,
         "alternatives": [
           "Repolho",
@@ -127,7 +127,7 @@
       {
         "image": "https://cdn.pixabay.com/photo/2019/06/24/13/52/achillion-4296103_960_720.jpg",
         "title": "Onde ficava a antiga cidade de Tróia",
-        "description": "Médio",
+        "description": "Pensava-se que a cidade fosse uma lenda até poucos séculos atrás, quando a encontraram em...",
         "answer": 2,
         "alternatives": [
           "Uma ilha na Grécia",
@@ -139,7 +139,7 @@
       {
         "image": "https://cdn.pixabay.com/photo/2016/12/06/12/41/syria-1886419_960_720.jpg",
         "title": "Como se chamava o líder da coalisão islâmica para retomar Jerusalém durante a Terceira Cruzada?",
-        "description": "Médio",
+        "description": "Conhecido por sua generosidade e tomado como modelo por reis europeus como um \"bom líder\"",
         "answer": 3,
         "alternatives": [
           "Muhammed II",
@@ -150,7 +150,10 @@
       }
     ],
     "external": [
-      "https://chessquiz-alura.leo0liveira.vercel.app/"
+      "https://chessquiz-alura.leo0liveira.vercel.app/",
+      "https://lotr-quiz.filipe1309.vercel.app/",
+      "https://ghibliquiz.ygoryamanaca.vercel.app/quiz?name=sd",
+      "https://theoffice-aluraquiz.joaovitordmoraes.vercel.app/"
     ],
     "theme": {
       "colors": {
