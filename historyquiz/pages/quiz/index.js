@@ -1,16 +1,15 @@
 /* eslint-disable eqeqeq */
 /* eslint-disable react/prop-types */
 import React from 'react';
-import db from '../db.json';
-import Widget from '../src/components/Widget';
-// import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import Button from '../src/components/Button';
-import AlternativesForm from '../src/components/AlternativesForm';
-import LoadingWidget from '../src/components/LoadingWidget';
-
-
+import db from '../../db.json';
+import Widget from '../../src/components/Widget';
+import QuizLogo from '../../src/components/QuizLogo';
+import QuizBackground from '../../src/components/QuizBackground';
+import QuizContainer from '../../src/components/QuizContainer';
+import Button from '../../src/components/Button';
+import AlternativesForm from '../../src/components/AlternativesForm';
+import LoadingWidget from '../../src/components/LoadingWidget';
+import BackLinkArrow from '../../src/components/BackLinkArrow';
 
 function ResultWidget({ results }) {
   return (
@@ -60,6 +59,7 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         <h3>
           {' '}
           Pergunta
@@ -98,7 +98,7 @@ function QuestionWidget({
               onSubmit();
               setIsQuestionSubmited(false);
               setSelected(undefined);
-            }, 1.5 * 1000);
+            }, 0.8 * 1000);
           }}
         >
           {question.alternatives.map((alternative, alternativeIndex) => {
@@ -131,8 +131,20 @@ function QuestionWidget({
             Confirmar
           </Button>
 
-          {isQuestionSubmited && isCorrect && <p>Você acertou!</p>}
-          {isQuestionSubmited && !isCorrect && <p>Você errou!</p>}
+          {isQuestionSubmited && isCorrect && (
+          <h3
+            style={{ color: db.theme.colors.success }}
+          >
+            Você acertou!
+          </h3>
+          )}
+          {isQuestionSubmited && !isCorrect && (
+          <h3
+            style={{ color: db.theme.colors.wrong }}
+          >
+            Você Errou!
+          </h3>
+          )}
 
         </AlternativesForm>
       </Widget.Content>
@@ -178,7 +190,7 @@ export default function QuizPage() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
-
+        <QuizLogo />
         { screenState === screenStates.QUIZ && (
         <QuestionWidget
           question={question}

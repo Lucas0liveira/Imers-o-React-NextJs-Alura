@@ -125,7 +125,7 @@
         ]
       },
       {
-        "image": "https://cdn.pixabay.com/photo/2016/04/11/17/53/ziggurat-1322581_960_720.jpg",
+        "image": "https://cdn.pixabay.com/photo/2019/06/24/13/52/achillion-4296103_960_720.jpg",
         "title": "Onde ficava a antiga cidade de Tróia",
         "description": "Médio",
         "answer": 2,
@@ -137,19 +137,7 @@
         ]
       },
       {
-        "image": "https://cdn.pixabay.com/photo/2016/04/11/17/53/ziggurat-1322581_960_720.jpg",
-        "title": "Como se chamava o líder da coalisão islâmica para retomar Jerusalém durante a Terceira Cruzada?",
-        "description": "Médio",
-        "answer": 3,
-        "alternatives": [
-          "Muhammed II",
-          "Suleiman I",
-          "Saladino",
-          "Adil I"
-        ]
-      },
-      {
-        "image": "https://cdn.pixabay.com/photo/2016/04/11/17/53/ziggurat-1322581_960_720.jpg",
+        "image": "https://cdn.pixabay.com/photo/2016/12/06/12/41/syria-1886419_960_720.jpg",
         "title": "Como se chamava o líder da coalisão islâmica para retomar Jerusalém durante a Terceira Cruzada?",
         "description": "Médio",
         "answer": 3,
@@ -162,7 +150,7 @@
       }
     ],
     "external": [
-      ""
+      "https://chessquiz-alura.leo0liveira.vercel.app/"
     ],
     "theme": {
       "colors": {
